@@ -1,0 +1,51 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: #472710;
+    font-family: yeseva one;
+    font-weight: bold;
+    transition: all .3s;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    margin: 8px;
+}
+
+.body {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    color: #fcbe11;
+}
+
+.intro .body {
+    font-size: 2rem;
+    width: 500px;
+}
+
+.body h1 {
+    font-size: 3rem;
+    margin: auto;
+}
+ul {
+    display: flex;
+    list-style: none;
+    font-family: inherit;
+    font-size: 2rem;
+    color:#fcbe11;
+}
+
+li{
+    margin: 8px;
+}
