@@ -13,6 +13,10 @@ body {
     height: 100vh;
 }
 
+i {
+    font-size: 2.5rem;
+}
+
 .top {
     display: flex;
     justify-content: space-between;
@@ -27,25 +31,36 @@ body {
     flex-direction: column;
     text-align: center;
     color: #fcbe11;
+    margin-bottom: 16px;
 }
 
-.intro .body {
-    font-size: 2rem;
-    width: 500px;
+ .body .intro{
+    font-size: 1.5rem;
+    width: 600px;
 }
 
 .body h1 {
     font-size: 3rem;
     margin: auto;
 }
-ul {
-    display: flex;
-    list-style: none;
-    font-family: inherit;
-    font-size: 2rem;
-    color:#fcbe11;
-}
 
-li{
+.contacts-header {
+    color:#f2e2b5;
+    font-size: 2rem;
     margin: 8px;
 }
+.contacts {
+    display: flex;
+    justify-content: center;
+    color:#f2e2b5;
+    margin: 12px;
+    gap: 70px;
+}
+
+.contacts .app {
+    margin: 8px;
+    font-size: 1.5rem;
+}
+
+
+
