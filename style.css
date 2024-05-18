@@ -13,13 +13,12 @@ body { /*entire page layout and colour*/
     height: 100vh;
 }
 
-i { /*icons*/
-    font-size: 2.5rem;
-}
-
-a { /*contact links*/
-    text-decoration: none;
-    color:#f2e2b5;
+.context { /*body text*/
+    background-color: white;
+    padding: 6px;
+    border-style: groove;
+    border-width: 8px;
+    border-color:#fcbe11;
 }
 
 .top { /*header info*/
@@ -33,19 +32,19 @@ a { /*contact links*/
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
+    flex-direction: row;
     text-align: center;
     color: #fcbe11;
     margin-bottom: 24px;
 }
 
- .body .intro{ /*introduction*/
+.context .intro{ /*introduction*/
     font-size: 1.5rem;
     width: 600px;
     margin-bottom: 24px;
 }
 
-.body h1 { /*greeting*/
+.context h1 { /*greeting*/
     font-size: 3rem;
     margin: auto;
 }
@@ -68,5 +67,13 @@ a { /*contact links*/
     font-size: 1.5rem;
 }
 
+.context i { /*icons*/
+    font-size: 2.5rem;
+}
+
+.context a { /*contact links*/
+    text-decoration: none;
+    color:#f2e2b5;
+}
 
 
