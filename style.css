@@ -3,7 +3,7 @@
     margin: 0;
 }
 
-body {
+body { /*entire page layout and colour*/
     background: #472710;
     font-family: yeseva one;
     font-weight: bold;
@@ -13,17 +13,22 @@ body {
     height: 100vh;
 }
 
-i {
+i { /*icons*/
     font-size: 2.5rem;
 }
 
-.top {
+a { /*contact links*/
+    text-decoration: none;
+    color:#f2e2b5;
+}
+
+.top { /*header info*/
     display: flex;
     justify-content: space-between;
     margin: 8px;
 }
 
-.body {
+.body { /*introduction*/
     flex: 1;
     display: flex;
     align-items: center;
@@ -34,22 +39,22 @@ i {
     margin-bottom: 16px;
 }
 
- .body .intro{
+ .body .intro{ /*introduction sentence*/
     font-size: 1.5rem;
     width: 600px;
 }
 
-.body h1 {
+.body h1 { /*greeting*/
     font-size: 3rem;
     margin: auto;
 }
 
-.contacts-header {
+.contacts-header { /*contacts header*/
     color:#f2e2b5;
     font-size: 2rem;
     margin: 8px;
 }
-.contacts {
+.contacts { /*icons and link*/
     display: flex;
     justify-content: center;
     color:#f2e2b5;
@@ -57,7 +62,7 @@ i {
     gap: 70px;
 }
 
-.contacts .app {
+.contacts .app { /*link text*/
     margin: 8px;
     font-size: 1.5rem;
 }
