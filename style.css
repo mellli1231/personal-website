@@ -28,7 +28,7 @@ a { /*contact links*/
     margin: 8px;
 }
 
-.body { /*introduction*/
+.body { /*all text in middle*/
     flex: 1;
     display: flex;
     align-items: center;
@@ -36,12 +36,13 @@ a { /*contact links*/
     flex-direction: column;
     text-align: center;
     color: #fcbe11;
-    margin-bottom: 16px;
+    margin-bottom: 24px;
 }
 
- .body .intro{ /*introduction sentence*/
+ .body .intro{ /*introduction*/
     font-size: 1.5rem;
     width: 600px;
+    margin-bottom: 24px;
 }
 
 .body h1 { /*greeting*/
