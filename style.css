@@ -4,7 +4,11 @@
 }
 
 body { /*entire page layout and colour*/
-    background: #472710;
+    background-color: #472710;
+    background-image: url('./images/room-top.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 600px;
     font-family: yeseva one;
     font-weight: bold;
     transition: all .3s;
