@@ -79,4 +79,10 @@ body { /*entire page layout and colour*/
     color:rgb(104, 69, 38);
 }
 
+.about {
+    margin-top: 24px;
+    font-size: 2rem;
+    color: rgb(104, 69, 38);
+}
+
 
