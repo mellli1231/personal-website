@@ -5,10 +5,9 @@
 
 body { /*entire page layout and colour*/
     background-color: #472710;
-    background-image: url('./images/room-top.png');
+    background-image: url('./images/room.png');
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 100% 600px;
     font-family: yeseva one;
     font-weight: bold;
     transition: all .3s;
@@ -18,11 +17,11 @@ body { /*entire page layout and colour*/
 }
 
 .context { /*body text*/
-    background-color: white;
-    padding: 6px;
+    background-color:rgb(216, 202, 162);
+    padding: 16px;
     border-style: groove;
     border-width: 8px;
-    border-color:#fcbe11;
+    border-color: #FCBE11;
 }
 
 .top { /*header info*/
@@ -38,7 +37,7 @@ body { /*entire page layout and colour*/
     justify-content: center;
     flex-direction: row;
     text-align: center;
-    color: #fcbe11;
+    color: rgb(71, 47, 24);
     margin-bottom: 24px;
 }
 
@@ -54,14 +53,14 @@ body { /*entire page layout and colour*/
 }
 
 .contacts-header { /*contacts header*/
-    color:#f2e2b5;
+    color:rgb(104, 69, 38);
     font-size: 2rem;
     margin: 8px;
 }
 .contacts { /*icons and link*/
     display: flex;
     justify-content: center;
-    color:#f2e2b5;
+    color:rgb(104, 69, 38);
     margin: 12px;
     gap: 70px;
 }
@@ -77,7 +76,7 @@ body { /*entire page layout and colour*/
 
 .context a { /*contact links*/
     text-decoration: none;
-    color:#f2e2b5;
+    color:rgb(104, 69, 38);
 }
 
 
