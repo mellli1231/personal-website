@@ -11,12 +11,10 @@ body { /*entire page layout and colour*/
     font-family: yeseva one;
     font-weight: bold;
     transition: all .3s;
-    display: flex;
-    flex-direction: column;
     height: 100vh;
 }
 
-.context { /*body text*/
+.context, .option { /*body text*/
     background-color:rgb(216, 202, 162);
     padding: 16px;
     border-style: groove;
@@ -85,4 +83,8 @@ body { /*entire page layout and colour*/
     color: rgb(104, 69, 38);
 }
 
+.about_web h1 {
+    color: rgb(216, 202, 162);
+    font-size: 3rem;
+}
 
