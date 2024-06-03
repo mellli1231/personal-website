@@ -77,13 +77,15 @@ body { /*entire page layout and colour*/
     color:rgb(104, 69, 38);
 }
 
-.about {
+.about { /*'about me' text on main page*/
     margin-top: 24px;
     font-size: 2rem;
     color: rgb(104, 69, 38);
 }
 
-.about_web {
+/*SWITCH STYLING TO HOME PAGE*/
+
+.about_web { /*page layout*/
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -91,7 +93,7 @@ body { /*entire page layout and colour*/
     text-align: center;
     gap: 100px;
 }
-.about_web .header {
+.about_web .header { /*'home' text*/
     color: rgb(216, 202, 162);
     font-size: 4rem;
     margin: 16px;
@@ -101,16 +103,21 @@ body { /*entire page layout and colour*/
 }
 
 
-.options {
+.options { /* options formatting*/
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap: 128px;
+    gap: 128px;  
 }
 
-.option {
+.option{ /*styling options text*/
     width: 300px;
     font-size: 2rem;
     color: rgb(71, 47, 24);
+}
+
+.option a { /*removing link style*/
+    color: inherit;
+    text-decoration: none;
 }
