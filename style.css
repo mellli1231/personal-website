@@ -66,6 +66,7 @@ body { /*entire page layout and colour*/
 .contacts .app { /*link text*/
     margin: 8px;
     font-size: 1.5rem;
+    text-decoration: underline;
 }
 
 .context i { /*icons*/
@@ -81,6 +82,7 @@ body { /*entire page layout and colour*/
     margin-top: 24px;
     font-size: 2rem;
     color: rgb(104, 69, 38);
+    text-decoration: underline;
 }
 
 /*SWITCH STYLING TO HOME PAGE*/
