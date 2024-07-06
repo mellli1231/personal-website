@@ -180,3 +180,36 @@ body { /*entire page layout and colour*/
     gap: 16px;
 }
 
+/*PROJECTS STYLING*/
+.my-projects h1 {
+    color: rgb(216, 202, 162);
+    font-size: 3.5rem;
+    text-align: center;
+    padding: 24px;
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+}
+
+.projects {
+    align-items: center;
+    display: flex;
+    color: rgb(216, 202, 162);
+    flex-direction: column;
+    gap: 12px;
+    margin: 16px;
+    font-size: 1.2rem;
+}
+
+.projects h2 {
+    text-align: left;
+}
+
+.projects .proj {
+    background-color: rgba(55, 45, 34, 0.73);
+    min-height: 100px;
+    width: 900px;
+    padding: 16px;
+    border-style: double;
+    border-color: rgb(216, 202, 162);
+    border-radius: 15px;
+}
