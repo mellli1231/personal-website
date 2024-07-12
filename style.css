@@ -123,7 +123,7 @@ body { /*entire page layout and colour*/
     text-decoration: none;
 }
 
-/*STYLING JOURNEY PAGE*/
+/*STYLING TIMELINE PAGE*/
 
 .my-timeline h1 {
     color: rgb(216, 202, 162);
@@ -145,9 +145,9 @@ body { /*entire page layout and colour*/
 }
 
 .timeline .event {
-    background-color: rgba(55, 45, 34, 0.73);
+    background-color: rgba(55, 45, 34, 0.866);
     min-height: 100px;
-    width: 900px;
+    width: 60%;
     padding: 16px;
     border-style: double;
     border-color: rgb(216, 202, 162);
@@ -158,20 +158,34 @@ body { /*entire page layout and colour*/
     padding-bottom: 16px;
 }
 
+.timeline .event ul {
+    padding-left: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
 /*KNOW ME STYLING*/
 .knowme {
     color: rgb(216, 202, 162);
     text-align: center;
     margin: 0 auto;
-    width: 100%;
+    width: 90%;
     height: 100%;
     display: flex;
     align-items: center;
-    justify-content: center;
-    flex-direction: column;
+    justify-content: space-between;
+    flex-direction: row;
 }
 
-.knowme h1 {
+.text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.text h1 {
     font-size: 3.5rem;
     text-align: center;
     padding: 24px;
@@ -187,16 +201,38 @@ body { /*entire page layout and colour*/
     justify-content: center;
     font-size: 1.3rem;
     gap: 36px;
-    background-color: rgba(55, 45, 34, 0.73);
+    background-color: rgba(55, 45, 34, 0.926);
     border-radius: 15px;
-    padding: 16px;
-    width: 1000px;
+    border-style: double;
+    padding: 24px;
+    width: 70%;
+    max-width: 900px;
 }
 
 .description .professional, .description .personal {
     display: flex;
     flex-direction: column;
     gap: 16px;
+}
+
+.pictures {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 128px;
+}
+
+.pic {
+    height: 400px;
+}
+.pic img {
+    height: 300px;
+    width: 300px;
+    max-width: 100%;
+    object-fit: cover;
+    border-radius: 20px;
 }
 
 /*PROJECTS STYLING*/
@@ -224,9 +260,9 @@ body { /*entire page layout and colour*/
 }
 
 .projects .proj {
-    background-color: rgba(55, 45, 34, 0.73);
+    background-color: rgba(55, 45, 34, 0.866);
     min-height: 100px;
-    width: 900px;
+    width: 60%;
     padding: 16px;
     border-style: double;
     border-color: rgb(216, 202, 162);
